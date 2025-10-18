@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objetos con Clases y DOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Demostración de Clases y DOM</h1>
+    <p>Interfaz para mostrar métodos de objetos con JavaScript</p>
+  </header>
+
+  <main class="grid-container">
+    <!-- Persona -->
+    <div class="card">
+      <h2>👨 Persona</h2>
+      <div class="buttons">
+        <button id="btnCaminar">Caminar</button>
+        <button id="btnEdad">Calcular Edad</button>
+      </div>
+      <div class="resultado" id="resPersona"></div>
+    </div>
+
+    <!-- Avión -->
+    <div class="card">
+      <h2>✈️ Avión</h2>
+      <div class="buttons">
+        <button id="btnMarcaAvion">Mostrar Marca</button>
+        <button id="btnColorAvion">Mostrar Color</button>
+      </div>
+      <div class="resultado" id="resAvion"></div>
+    </div>
+
+    <!-- Cliente -->
+    <div class="card">
+      <h2>🧾 Cliente</h2>
+      <div class="buttons">
+        <button id="btnNombreCliente">Mostrar Nombre</button>
+        <button id="btnTelefonoCliente">Mostrar Teléfono</button>
+      </div>
+      <div class="resultado" id="resCliente"></div>
+    </div>
+
+    <!-- Proveedor -->
+    <div class="card">
+      <h2>📦 Proveedor</h2>
+      <div class="buttons">
+        <button id="btnNombreProveedor">Mostrar Nombre</button>
+        <button id="btnApellidoProveedor">Mostrar Apellido</button>
+      </div>
+      <div class="resultado" id="resProveedor"></div>
+    </div>
+
+    <!-- Estudiante -->
+    <div class="card">
+      <h2>🎓 Estudiante</h2>
+      <div class="buttons">
+        <button id="btnNombreEstudiante">Mostrar Nombre</button>
+        <button id="btnEstadoEstudiante">Ver Estado</button>
+      </div>
+      <div class="resultado" id="resEstudiante"></div>
+    </div>
+  </main>
+
+  <div class="center">
+    <button id="btnLimpiar" class="btn-clear">🧹 Limpiar Resultados</button>
+  </div>
+
+  <footer>
+    <p>Hecho con ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
